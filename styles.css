@@ -4,6 +4,12 @@
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 }
+#rightimg {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
 body{
     text-align: -webkit-center;
 }
