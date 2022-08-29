@@ -11,26 +11,33 @@ body{
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* border: 1px solid black; */
+    margin:20px auto;
     width: 400px;
-    height:200px;
+    height:225px;
     border-radius: 5px;
     box-shadow: grey 0px 0px 10px;
 }
-.project {
+.left {
     position: absolute;
     text-align: left;
+    left: 8%;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    
+    .right {
+        position: absolute;
+        text-align: left;
+        left: 58%;
     font-size: 20px;
     font-weight: bold;
 }
 .title {
     top: 15%;
-    left: 8%
 }
 
 .descr {
-    top: 45%;
-    left: 8%;
+    top: 40%;
     font-size: 11px;
     font-weight: lighter;
 }
@@ -40,7 +47,6 @@ body{
     border: 0px;
     background-image: linear-gradient(to right, #24C6DC 0%, #514A9D 51%, #24C6DC 100%);
     top: 65%;
-    left: 10%;
     height:25px;
     color: white;
     font-size: 8px;
@@ -51,6 +57,7 @@ body{
     box-shadow: 0 0 20px #eee;
     background-size: 200% auto;
 }
+
 
 .btn:hover {
     background-position: right center;
